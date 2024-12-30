@@ -61,7 +61,7 @@ class HomeScreen extends StatelessWidget {
                           ),
                           child: CircleAvatar(
                             radius: 20,
-                            backgroundImage: AssetImage('images/profile.jpg'),
+                            backgroundImage: AssetImage('assets/images/profile.jpg'),
                           ),
                         ),
                       ),
@@ -164,7 +164,7 @@ class HomeScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     image: DecorationImage(
-                      image: AssetImage('images/uncharted.png'),
+                      image: AssetImage('assets/images/uncharted.png'),
                       fit: BoxFit.cover,
                     ),
                   ),
@@ -182,12 +182,12 @@ class HomeScreen extends StatelessWidget {
                 _buildSection(
                   'Trending Movies',
                   [
-                    _buildMovieCard('Yes I Do', 'images/yes_i_do.png'),
-                    _buildMovieCard('Soul Mate', 'images/soul_mate.png'),
-                    _buildMovieCard("UB's Secret", 'images/ubs_secret.png'),
-                    _buildMovieCard('Yes I Do', 'images/yes_i_do.png'),
-                    _buildMovieCard('Soul Mate', 'images/soul_mate.png'),
-                    _buildMovieCard("UB's Secret", 'images/ubs_secret.png'),
+                    _buildMovieCard('Yes I Do', 'assets/images/yes_i_do.png'),
+                    _buildMovieCard('Soul Mate', 'assets/images/soul_mate.png'),
+                    _buildMovieCard("UB's Secret", 'assets/images/ubs_secret.png'),
+                    _buildMovieCard('Yes I Do', 'assets/images/yes_i_do.png'),
+                    _buildMovieCard('Soul Mate', 'assets/images/soul_mate.png'),
+                    _buildMovieCard("UB's Secret", 'assets/images/ubs_secret.png'),
                   ],
                 ),
 
@@ -197,19 +197,19 @@ class HomeScreen extends StatelessWidget {
                   [
                     _buildEpisodeCard(
                       'Wednesday I Season - 1 Episode - 3',
-                      'images/wednesday.png',
+                      'assets/images/wednesday.png',
                     ),
                     _buildEpisodeCard(
                       'Emily in Paris I Season - 1 Episode - 1',
-                      'images/emily_paris.png',
+                      'assets/images/emily_paris.png',
                     ),
                     _buildEpisodeCard(
                       'Wednesday I Season - 1 Episode - 3',
-                      'images/wednesday.png',
+                      'assets/images/wednesday.png',
                     ),
                     _buildEpisodeCard(
                       'Emily in Paris I Season - 1 Episode - 1',
-                      'images/emily_paris.png',
+                      'assets/images/emily_paris.png',
                     ),
                   ],
                 ),
@@ -218,18 +218,18 @@ class HomeScreen extends StatelessWidget {
                 _buildSection(
                   'Recommended For You',
                   [
-                    _buildMovieCard('Double Love', 'images/double_love.png'),
+                    _buildMovieCard('Double Love', 'assets/images/double_love.png'),
                     _buildMovieCard(
                       'Curse Of The River',
-                      'images/curse_river.png',
+                      'assets/images/curse_river.png',
                     ),
-                    _buildMovieCard('Sunita', 'images/sunita.png'),
-                    _buildMovieCard('Double Love', 'images/double_love.png'),
+                    _buildMovieCard('Sunita', 'assets/images/sunita.png'),
+                    _buildMovieCard('Double Love', 'assets/images/double_love.png'),
                     _buildMovieCard(
                       'Curse Of The River',
-                      'images/curse_river.png',
+                      'assets/images/curse_river.png',
                     ),
-                    _buildMovieCard('Sunita', 'images/sunita.png'),
+                    _buildMovieCard('Sunita', 'assets/images/sunita.png'),
                   ],
                 ),
               ],
